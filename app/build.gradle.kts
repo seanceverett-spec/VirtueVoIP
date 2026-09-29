@@ -1,16 +1,16 @@
 plugins {
-    id("com.android.application") version "8.5.2"
-    id("org.jetbrains.kotlin.android") version "1.9.24"
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
     namespace = "org.virtuevoip.client"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.virtuevoip.client"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0-alpha"
 
