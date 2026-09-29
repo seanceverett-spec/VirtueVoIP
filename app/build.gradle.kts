@@ -35,7 +35,7 @@ android {
 
 dependencies {
     implementation("org.linphone:linphone-sdk-android:5.3.77")
-    implementation("com.wireguard.android:tunnel:1.0.20230707")
+    implementation("com.wireguard.android:tunnel:1.0.20230706")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
