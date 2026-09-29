@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "org.virtuevoip.client"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "org.virtuevoip.client"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0-alpha"
 
@@ -35,7 +35,7 @@ android {
 
 dependencies {
     implementation("org.linphone:linphone-sdk-android:5.3.77")
-    implementation("com.github.WireGuard.wireguard-android:tunnel:1.0.20230707")
+    implementation("com.wireguard.android:tunnel:1.0.20230707")
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.5")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")

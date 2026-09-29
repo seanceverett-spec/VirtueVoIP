@@ -17,6 +17,9 @@ dependencyResolutionManagement {
         maven {
             url = java.net.URI("https://jitpack.io")
         }
+        maven {
+            url = java.net.URI("https://git.zx2c4.com/wireguard-android/snapshot/")
+        }
     }
 }
 
