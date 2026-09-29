@@ -7,16 +7,15 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
         mavenCentral()
         maven {
             url = java.net.URI("https://download.linphone.org/maven_repository/")
-            content {
-                includeGroup("org.linphone")
-                includeGroup("org.linphone.bundled")
-            }
+        }
+        maven {
+            url = java.net.URI("https://jitpack.io")
         }
     }
 }
