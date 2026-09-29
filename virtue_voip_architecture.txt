@@ -1,0 +1,16 @@
++-----------------------------------------------------------------------+
+|                       Virtue VoIP Client (Android)                    |
++-----------------------------------------------------------------------+
+|  Tier 2: Out-of-Band Setup    |  Tier 3: Distributed Discovery        |
+|  (SimpleX Protocol / XFTP)    |  (OpenDHT / Jami Daemon)              |
+|  - Ephemeral pairwise queues  |  - Serverless identity hashes         |
+|  - One-time QR key exchange   |  - Local Wi-Fi discovery (mDNS)       |
++-------------------------------+---------------------------------------+
+|                   Unified Session Negotiator                          |
+|         Decides best route: WireGuard Tunnel vs Direct P2P            |
++-----------------------------------------------------------------------+
+|  Tier 1: Media & Signaling Core (Liblinphone + ZRTP + WireGuard)      |
+|  - Signaling: Direct SIP over TLS or embedded WireGuard tunnel        |
+|  - Media: SRTP / ZRTP (SAS verbal verification)                       |
+|  - Codec: Opus dynamic bitrate engine                                 |
++-----------------------------------------------------------------------+
