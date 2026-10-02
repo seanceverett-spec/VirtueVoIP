@@ -1,3 +1,5 @@
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
 name: Build Virtue VoIP APK
 
 on:
